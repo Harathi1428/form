@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(rgb(58, 113, 132),rgb(24, 24, 96));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+form{
+    width:400px;
+    padding:30px;
+    background:linear-gradient(rgb(24, 24, 96),rgb(58, 113, 132));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:black;
+    column-gap: 20px;
+}
+input{
+    background-color:white;
+    width:200px;
+    height:40px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+button{
+    width:100px;
+    height:40px;
+    color:white;
+    background:rgb(58, 113, 132);
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background: rgb(35, 35, 148);
+    color:white;
+}
